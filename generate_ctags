@@ -1,0 +1,10 @@
+#!/bin/bash
+ctags \
+    --exclude=gchp_standard \
+    --exclude=geosfp_4x5_standard \
+    --exclude=UT \
+    --exclude=gchp_standard \
+    --languages=Fortran \
+    --Fortran-kinds=fikmstv \
+    -R \
+    -f tags
