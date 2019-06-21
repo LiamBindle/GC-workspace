@@ -1,0 +1,3 @@
+#!/bin/bash
+TUNNEL_PORT=27182
+cd geosfp_4x5_standard && gdbserver :$TUNNEL_PORT ./geos
