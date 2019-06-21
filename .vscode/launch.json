@@ -1,0 +1,38 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug remote GC-Classic",
+            "type": "gdb",  
+            "request": "attach",
+            "target": "localhost:27182",
+            "remote": true,
+            "cwd": "${workspaceRoot}", 
+            "gdbpath": "/usr/bin/gdb",
+            "executable": "geosfp_4x5_standard/geos",
+            "autorun": [
+                "set substitute-path /misc/data10/bindle/GC-workspace ${workspaceRoot}",
+                "set substitute-path /data10/bindle/GC-workspace ${workspaceRoot}",
+            ]
+
+        },
+        {
+            "name": "Debug remote GCHP",
+            "type": "gdb",  
+            "request": "attach",
+            "target": "localhost:27182",
+            "remote": true,
+            "cwd": "${workspaceRoot}", 
+            "gdbpath": "/usr/bin/gdb",
+            "executable": "gchp_standard/geos",
+            "autorun": [
+                "set substitute-path /misc/data10/bindle/GC-workspace ${workspaceRoot}",
+                "set substitute-path /data10/bindle/GC-workspace ${workspaceRoot}",
+            ]
+
+        }
+    ]
+}
