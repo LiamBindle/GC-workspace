@@ -1,0 +1,10 @@
+[submodule "GC"]
+	path = GC
+	url = https://github.com/LiamBindle/geos-chem.git
+	branch = feature/CMake
+	ignore=dirty
+[submodule "UT"]
+	path = UT
+	url = https://github.com/geoschem/geos-chem-unittest.git
+	branch = dev/12.4.0
+	ignore=dirty
