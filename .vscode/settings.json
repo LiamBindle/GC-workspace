@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "*.F": "FortranFreeForm",
+        "*.f": "FortranFreeForm",
+        "*.F90": "FortranFreeForm",
+        "*.f90": "FortranFreeForm"
+    },
+}
