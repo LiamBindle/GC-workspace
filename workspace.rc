@@ -1,0 +1,9 @@
+export CC=icc
+export CXX=icpc
+export FC=ifort
+
+export ESMF_ROOT=/software/gchp-thirdparty/ESMF/Intel/17.0.5.20170817
+export gFTL_ROOT=/software/gchp-thirdparty/gFTL/Intel/17.0.5.20170817
+
+export KMP_STACKSIZE=2097152000
+ulimit -s unlimited
