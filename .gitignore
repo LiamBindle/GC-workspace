@@ -1,3 +1,4 @@
 tags
-gchp_standard/
+gchp_standard/*
+!gchp_standard/*.rc
 geosfp_4x5_standard/
