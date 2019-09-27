@@ -16,3 +16,6 @@ I use the following VS Code extensions:
 - Modern Fortran
 - Native Debug
 - vscode-icons
+
+## Useful for other people
+The `.vscode` directory has scripts for setting up VSCode to launch GDB and attach it to the tunnel. The `gdbserver_gchp` script launches gdbserver and the tunnel on the node-side.
